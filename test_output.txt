@@ -1,0 +1,29 @@
+AVLTreeMap Test:
+AVLTreeMap Initial Content
+(1,A)(2,B)(3,C)(4,D)(5,E)(6,F)(7,G)(8,H)(9,I)(10,J)
+Delete KEY=3 Result:
+(1,A)(2,B)(4,D)(5,E)(6,F)(7,G)(8,H)(9,I)(10,J)
+The result after modifying the value of KEY=5 to M5:
+(1,A)(2,B)(4,D)(5,M5)(6,F)(7,G)(8,H)(9,I)(10,J)
+Get Value with KEY=9:I
+The result after adding KEY=100 VALUE=HELLO:
+(1,A)(2,B)(4,D)(5,M5)(6,F)(7,G)(8,H)(9,I)(10,J)(100,HELLO)
+The number of elements in AVLTreeMap = 10
+Is AVLTreeMap empty = false
+
+
+
+HashMap Test:
+HashMap Initial content
+(1,A)(2,B)(3,C)(4,D)(5,E)(6,F)(7,G)(8,H)(9,I)(10,J)
+Delete KEY=3 Result:
+(1,A)(2,B)(4,D)(5,E)(6,F)(7,G)(8,H)(9,I)(10,J)
+The result after modifying the value of KEY=5 to M5:
+(1,A)(2,B)(4,D)(5,M5)(6,F)(7,G)(8,H)(9,I)(10,J)
+Get Value with KEY=9:I
+The result after adding KEY=100 VALUE=HELLO:
+(1,A)(2,B)(4,D)(5,M5)(6,F)(7,G)(8,H)(9,I)(10,J)(100,HELLO)
+The number of elements in HashMap = 10
+Is HashMap empty = false
+
+Process finished with exit code 0
